@@ -56,8 +56,8 @@ A total of two virtual machines were assessed, covering a range of critical web 
 
 ## 6. Detailed Technical Documentation
 For full step-by-step walkthroughs, proof-of-concept commands, screenshots, and detailed mitigation strategies for each target, please refer to the documentation files in this repository:
-- 📖 [Aragog 1.0.2 - Full VAPT & Hardening Report](./Aragog_Report.pdf)
-- 📖 [hacksudo: search - Full VAPT & Hardening Report](./Hacksudo_Search_Report.pdf)
+- 📖 [Aragog 1.0.2 - Full VAPT & Hardening Report](./https://github.com/MoAhmed2004/DEPI-VAPT-Final-Project/blob/main/Aragog.pdf)
+- 📖 [hacksudo: search - Full VAPT & Hardening Report](./https://github.com/MoAhmed2004/DEPI-VAPT-Final-Project/blob/main/hacksudo%20search.docx)
 
 ---
 
