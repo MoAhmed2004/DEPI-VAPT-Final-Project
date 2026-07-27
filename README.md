@@ -42,4 +42,28 @@ This penetration test strictly adheres to the **Penetration Testing Execution St
 4. **Post-Exploitation:** Privilege escalation to gain `root`/`SYSTEM` access.
 5. **Reporting & Mitigation:** Documenting vulnerabilities and applying server hardening.
 
-*This documentation is continually updated as the testing phases are executed.*
+---
+
+## 5. Executive Summary of Findings
+A total of two virtual machines were assessed, covering a range of critical web application vulnerabilities and Linux privilege escalation vectors.
+
+| Target Machine | Initial Access Vector | Privilege Escalation Vector | Blue Team Hardening Applied |
+| :--- | :--- | :--- | :--- |
+| **HarryPotter: Aragog (1.0.2)** | WordPress Plugin RCE (`wp-file-manager`) | SUID Binary Execution (`/tmp/bash`) + Root Cron Job | Plugin removal, file permission tightening (`chmod 400`), SUID removal |
+| **hacksudo: search** | RFI/LFI via vulnerable PHP parameter + `.env` exposure | SUID Binary + PATH Hijacking (`searchinstall`) | `.env` restriction, input validation, patching insecure `system()` calls |
+
+---
+
+## 6. Detailed Technical Documentation
+For full step-by-step walkthroughs, proof-of-concept commands, screenshots, and detailed mitigation strategies for each target, please refer to the documentation files in this repository:
+- 📖 [Aragog 1.0.2 - Full VAPT & Hardening Report](./Aragog_Report.pdf)
+- 📖 [hacksudo: search - Full VAPT & Hardening Report](./Hacksudo_Search_Report.pdf)
+
+---
+
+## 7. Key Takeaways & Purple Team Approach
+This project emphasized a **Purple Team methodology**:
+1. **Red Team (Offense):** Focused on enumeration, credential reuse, manipulating scheduled tasks, and exploiting environmental variables (`$PATH`).
+2. **Blue Team (Defense):** Rather than ending the test at obtaining `root`, practical system administration was performed to remediate the vulnerabilities, enforce principle of least privilege, and secure application-layer configurations.
+
+*Special thanks to our DEPI instructors and mentors for their continuous guidance throughout the Vulnerability Analyst and Penetration Testing track.*
