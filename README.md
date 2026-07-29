@@ -27,7 +27,7 @@ Before initiating any offensive actions, the rules of engagement and scope must 
 
 ## 3. System Architecture & Setup Environment
 To replicate and test this environment, the following setup is required:
-- **Hypervisor:** Oracle VirtualBox (Better) / VMware Workstation .
+- **Hypervisor:** Oracle VirtualBox (Recommended) / VMware Workstation.
 - **Attacker Machine:** Kali Linux.
 - **Network Configuration:** Both Attacker and Target machines must be configured on the same isolated network (Bridged or NAT) to prevent external interference.
 - **Data Flow:** The attacker will initiate traffic via the local network interface, targeting specific exposed ports on the VMs.
@@ -56,7 +56,9 @@ A total of two virtual machines were assessed, covering a range of critical web 
 
 ## 6. Comprehensive Documentation & Report
 For step-by-step walkthroughs, proof-of-concept execution commands, terminal screenshots, and detailed Blue Team hardening procedures, please refer to the comprehensive project report included in this repository:
-📖 [Comprehensive Penetration Testing & Vulnerability Assessment Report](./Comprehensive%20Penetration%20Testing%20Report%20-%20DEPI.pdf)**
+
+> ### 📄 [Click Here to View the Full Technical Report (PDF)](./Comprehensive%20Penetration%20Testing%20Report%20-%20DEPI.pdf)
+
 ---
 
 ## 7. Key Takeaways & Purple Team Approach
