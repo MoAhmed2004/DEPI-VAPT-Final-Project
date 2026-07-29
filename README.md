@@ -56,8 +56,7 @@ A total of two virtual machines were assessed, covering a range of critical web 
 
 ## 6. Comprehensive Documentation & Report
 For step-by-step walkthroughs, proof-of-concept execution commands, terminal screenshots, and detailed Blue Team hardening procedures, please refer to the comprehensive project report included in this repository:
-**- 📖 [Comprehensive Penetration Testing & Vulnerability Assessment Report](./Comprehensive Penetration Testing Report - DEPI.pdf)
-**
+📖 [Comprehensive Penetration Testing & Vulnerability Assessment Report](./Comprehensive%20Penetration%20Testing%20Report%20-%20DEPI.pdf)**
 ---
 
 ## 7. Key Takeaways & Purple Team Approach
