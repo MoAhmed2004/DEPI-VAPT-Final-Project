@@ -27,7 +27,7 @@ Before initiating any offensive actions, the rules of engagement and scope must 
 
 ## 3. System Architecture & Setup Environment
 To replicate and test this environment, the following setup is required:
-- **Hypervisor:** VMware Workstation.
+- **Hypervisor:** Oracle VirtualBox (Better) / VMware Workstation .
 - **Attacker Machine:** Kali Linux.
 - **Network Configuration:** Both Attacker and Target machines must be configured on the same isolated network (Bridged or NAT) to prevent external interference.
 - **Data Flow:** The attacker will initiate traffic via the local network interface, targeting specific exposed ports on the VMs.
