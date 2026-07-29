@@ -13,8 +13,8 @@ The objective is to perform a full-cycle Vulnerability Assessment and Penetratio
 Before initiating any offensive actions, the rules of engagement and scope must be strictly defined to ensure a controlled and authorized testing environment.
 
 ### In-Scope (Targets)
-- **Target 1:** Aragog 1.0.2 (Local VM IP: `TBD`) - [VulnHub Link](https://www.vulnhub.com/entry/harrypotter-aragog-102,688/)
-- **Target 2:** hacksudo: search (Local VM IP: `TBD`) - [VulnHub Link](https://www.vulnhub.com/entry/hacksudo-search,683/)
+- **Target 1:** Aragog 1.0.2 (Lab IP: `192.168.158.128`) - [VulnHub Link](https://www.vulnhub.com/entry/harrypotter-aragog-102,688/)
+- **Target 2:** hacksudo: search (Lab IP: `192.168.1.95`) - [VulnHub Link](https://www.vulnhub.com/entry/hacksudo-search,683/)
 - **Authorized Activities:** Port scanning, vulnerability enumeration, exploitation for initial access, and privilege escalation.
 
 ### Out-of-Scope
@@ -54,9 +54,25 @@ A total of two virtual machines were assessed, covering a range of critical web 
 
 ---
 
-## 6. Key Takeaways & Purple Team Approach
+## 6. Comprehensive Documentation & Report
+For step-by-step walkthroughs, proof-of-concept execution commands, terminal screenshots, and detailed Blue Team hardening procedures, please refer to the comprehensive project report included in this repository:
+- 📖 [Comprehensive Penetration Testing & Vulnerability Assessment Report](./DEPI_VAPT_Comprehensive_Report.pdf)
+
+---
+
+## 7. Key Takeaways & Purple Team Approach
 This project emphasized a **Purple Team methodology**:
 1. **Red Team (Offense):** Focused on enumeration, credential reuse, manipulating scheduled tasks, and exploiting environmental variables (`$PATH`).
 2. **Blue Team (Defense):** Rather than ending the test at obtaining `root`, practical system administration was performed to remediate the vulnerabilities, enforce principle of least privilege, and secure application-layer configurations.
 
+---
+
+## 8. Project Team & Acknowledgments
+This project was successfully executed and documented by the following team members under the **Digital Egypt Pioneers Initiative (DEPI) — Round 4**:
+- 👨‍💻 **Mohamed Ahmed**
+- 👨‍💻 **Muhammed Shabban**
+- 👨‍💻 **Ali Adel**
+- 👩‍💻 **Raneem Hany**
+
+**Instructor & Supervisor:** Eng. Ahmed Ashraf  
 *Special thanks to our DEPI instructors and mentors for their continuous guidance throughout the Vulnerability Analyst and Penetration Testing track.*
